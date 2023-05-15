@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33006F4829CA8719000E8473 /* CreateDocumentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33006F4729CA8719000E8473 /* CreateDocumentRequest.swift */; };
+		33006F4A29CA8726000E8473 /* CreateDocumentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33006F4929CA8726000E8473 /* CreateDocumentResponse.swift */; };
+		33006F4C29CB3F79000E8473 /* WebViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33006F4B29CB3F79000E8473 /* WebViewScreen.swift */; };
+		3344777F27F14B62008948FC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344777E27F14B62008948FC /* HomeScreen.swift */; };
+		3381636E2A0D808900AF2808 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381636D2A0D808900AF2808 /* Debug.swift */; };
+		338163702A0D80D100AF2808 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381636F2A0D80D100AF2808 /* UIColor+Extension.swift */; };
+		338163722A0D811500AF2808 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338163712A0D811500AF2808 /* String+Extension.swift */; };
+		338163742A0D822600AF2808 /* NSDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338163732A0D822600AF2808 /* NSDictionary+Extension.swift */; };
+		338163772A0D82C900AF2808 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338163762A0D82C900AF2808 /* UILabel+Extension.swift */; };
+		338163792A0D833000AF2808 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338163782A0D833000AF2808 /* UIView+Extension.swift */; };
+		3381637B2A0D846800AF2808 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381637A2A0D846800AF2808 /* CGRect+Extension.swift */; };
+		3381637D2A0D849500AF2808 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381637C2A0D849500AF2808 /* UITextField+Extension.swift */; };
+		3381637F2A0D860C00AF2808 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381637E2A0D860C00AF2808 /* UIViewController+Extension.swift */; };
+		338163872A0FBEEE00AF2808 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 338163852A0FBEEE00AF2808 /* logo.png */; };
+		338163882A0FBEEE00AF2808 /* page.html in Resources */ = {isa = PBXBuildFile; fileRef = 338163862A0FBEEE00AF2808 /* page.html */; };
+		3381638A2A0FBF5300AF2808 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338163892A0FBF5300AF2808 /* UIScrollView+Extension.swift */; };
+		338388E127B011720067049E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338388E027B011720067049E /* AppDelegate.swift */; };
+		338388E827B011720067049E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338388E627B011720067049E /* Main.storyboard */; };
+		338388EA27B011730067049E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338388E927B011730067049E /* Assets.xcassets */; };
+		338388ED27B011730067049E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338388EB27B011730067049E /* LaunchScreen.storyboard */; };
+		338388F827B029960067049E /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338388F727B029960067049E /* BaseScreen.swift */; };
+		3383892627B030C90067049E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383892527B030C90067049E /* Common.swift */; };
+		33A1A50127B42AA00035F247 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1A50027B42AA00035F247 /* APIRequest.swift */; };
+		33A1A50327B42AAA0035F247 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1A50227B42AAA0035F247 /* APIResponse.swift */; };
+		A24CBC3222225A160AA0B7A0 /* Pods_SignWell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AEE8594894BA6678F9AA93 /* Pods_SignWell.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33006F4729CA8719000E8473 /* CreateDocumentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDocumentRequest.swift; sourceTree = "<group>"; };
+		33006F4929CA8726000E8473 /* CreateDocumentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDocumentResponse.swift; sourceTree = "<group>"; };
+		33006F4B29CB3F79000E8473 /* WebViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewScreen.swift; sourceTree = "<group>"; };
+		3344777E27F14B62008948FC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		3381636D2A0D808900AF2808 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		3381636F2A0D80D100AF2808 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		338163712A0D811500AF2808 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		338163732A0D822600AF2808 /* NSDictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extension.swift"; sourceTree = "<group>"; };
+		338163762A0D82C900AF2808 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		338163782A0D833000AF2808 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3381637A2A0D846800AF2808 /* CGRect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		3381637C2A0D849500AF2808 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		3381637E2A0D860C00AF2808 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		338163852A0FBEEE00AF2808 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		338163862A0FBEEE00AF2808 /* page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page.html; sourceTree = "<group>"; };
+		338163892A0FBF5300AF2808 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		338388DD27B011720067049E /* SignWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		338388E027B011720067049E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		338388E727B011720067049E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		338388E927B011730067049E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		338388EC27B011730067049E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		338388EE27B011730067049E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338388F727B029960067049E /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		3383892527B030C90067049E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		33A1A50027B42AA00035F247 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		33A1A50227B42AAA0035F247 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		87AEE8594894BA6678F9AA93 /* Pods_SignWell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignWell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C064DE3C5CE033C6EA7F6F46 /* Pods-SignWell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignWell.debug.xcconfig"; path = "Target Support Files/Pods-SignWell/Pods-SignWell.debug.xcconfig"; sourceTree = "<group>"; };
+		D2C67D95385A4E2AEEE67CAF /* Pods-SignWell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignWell.release.xcconfig"; path = "Target Support Files/Pods-SignWell/Pods-SignWell.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		338388DA27B011720067049E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24CBC3222225A160AA0B7A0 /* Pods_SignWell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334823293C3A05C86E9A07A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C064DE3C5CE033C6EA7F6F46 /* Pods-SignWell.debug.xcconfig */,
+				D2C67D95385A4E2AEEE67CAF /* Pods-SignWell.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		338163752A0D829700AF2808 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3381637A2A0D846800AF2808 /* CGRect+Extension.swift */,
+				338163732A0D822600AF2808 /* NSDictionary+Extension.swift */,
+				338163712A0D811500AF2808 /* String+Extension.swift */,
+				3381636F2A0D80D100AF2808 /* UIColor+Extension.swift */,
+				338163762A0D82C900AF2808 /* UILabel+Extension.swift */,
+				3381637C2A0D849500AF2808 /* UITextField+Extension.swift */,
+				338163782A0D833000AF2808 /* UIView+Extension.swift */,
+				3381637E2A0D860C00AF2808 /* UIViewController+Extension.swift */,
+				338163892A0FBF5300AF2808 /* UIScrollView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		338163842A0FBEEE00AF2808 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				338163852A0FBEEE00AF2808 /* logo.png */,
+				338163862A0FBEEE00AF2808 /* page.html */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		338388D427B011720067049E = {
+			isa = PBXGroup;
+			children = (
+				338388DF27B011720067049E /* SignWell */,
+				338388DE27B011720067049E /* Products */,
+				8082A8E2D5DD1F908F076A6E /* Frameworks */,
+				334823293C3A05C86E9A07A1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		338388DE27B011720067049E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				338388DD27B011720067049E /* SignWell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		338388DF27B011720067049E /* SignWell */ = {
+			isa = PBXGroup;
+			children = (
+				338163842A0FBEEE00AF2808 /* assets */,
+				338163752A0D829700AF2808 /* Extensions */,
+				33A1A4FD27B42A650035F247 /* API */,
+				338388F427B029060067049E /* UI */,
+				338388E027B011720067049E /* AppDelegate.swift */,
+				3383892527B030C90067049E /* Common.swift */,
+				338388E927B011730067049E /* Assets.xcassets */,
+				338388EE27B011730067049E /* Info.plist */,
+				3381636D2A0D808900AF2808 /* Debug.swift */,
+			);
+			path = SignWell;
+			sourceTree = "<group>";
+		};
+		338388F427B029060067049E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				338388F527B0290C0067049E /* Controls */,
+				338388F627B029110067049E /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		338388F527B0290C0067049E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		338388F627B029110067049E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				338388F727B029960067049E /* BaseScreen.swift */,
+				3344777E27F14B62008948FC /* HomeScreen.swift */,
+				338388EB27B011730067049E /* LaunchScreen.storyboard */,
+				338388E627B011720067049E /* Main.storyboard */,
+				33006F4B29CB3F79000E8473 /* WebViewScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		33A1A4FD27B42A650035F247 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				33A1A50027B42AA00035F247 /* APIRequest.swift */,
+				33A1A50227B42AAA0035F247 /* APIResponse.swift */,
+				33006F4729CA8719000E8473 /* CreateDocumentRequest.swift */,
+				33006F4929CA8726000E8473 /* CreateDocumentResponse.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8082A8E2D5DD1F908F076A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87AEE8594894BA6678F9AA93 /* Pods_SignWell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		338388DC27B011720067049E /* SignWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338388F127B011730067049E /* Build configuration list for PBXNativeTarget "SignWell" */;
+			buildPhases = (
+				F7D5147287FD6EBB54210977 /* [CP] Check Pods Manifest.lock */,
+				338388D927B011720067049E /* Sources */,
+				338388DA27B011720067049E /* Frameworks */,
+				338388DB27B011720067049E /* Resources */,
+				A5CAD8E0BFF662CD134E8C8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignWell;
+			productName = SignWell;
+			productReference = 338388DD27B011720067049E /* SignWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		338388D527B011720067049E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					338388DC27B011720067049E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 338388D827B011720067049E /* Build configuration list for PBXProject "SignWell" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 338388D427B011720067049E;
+			productRefGroup = 338388DE27B011720067049E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				338388DC27B011720067049E /* SignWell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		338388DB27B011720067049E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338388ED27B011730067049E /* LaunchScreen.storyboard in Resources */,
+				338163882A0FBEEE00AF2808 /* page.html in Resources */,
+				338388EA27B011730067049E /* Assets.xcassets in Resources */,
+				338163872A0FBEEE00AF2808 /* logo.png in Resources */,
+				338388E827B011720067049E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5CAD8E0BFF662CD134E8C8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignWell/Pods-SignWell-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignWell/Pods-SignWell-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignWell/Pods-SignWell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D5147287FD6EBB54210977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignWell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338388D927B011720067049E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3381637F2A0D860C00AF2808 /* UIViewController+Extension.swift in Sources */,
+				33A1A50127B42AA00035F247 /* APIRequest.swift in Sources */,
+				3381637B2A0D846800AF2808 /* CGRect+Extension.swift in Sources */,
+				3381636E2A0D808900AF2808 /* Debug.swift in Sources */,
+				33006F4A29CA8726000E8473 /* CreateDocumentResponse.swift in Sources */,
+				338163792A0D833000AF2808 /* UIView+Extension.swift in Sources */,
+				338163702A0D80D100AF2808 /* UIColor+Extension.swift in Sources */,
+				33006F4C29CB3F79000E8473 /* WebViewScreen.swift in Sources */,
+				3344777F27F14B62008948FC /* HomeScreen.swift in Sources */,
+				338388E127B011720067049E /* AppDelegate.swift in Sources */,
+				3383892627B030C90067049E /* Common.swift in Sources */,
+				338163722A0D811500AF2808 /* String+Extension.swift in Sources */,
+				33A1A50327B42AAA0035F247 /* APIResponse.swift in Sources */,
+				338163772A0D82C900AF2808 /* UILabel+Extension.swift in Sources */,
+				3381638A2A0FBF5300AF2808 /* UIScrollView+Extension.swift in Sources */,
+				338163742A0D822600AF2808 /* NSDictionary+Extension.swift in Sources */,
+				33006F4829CA8719000E8473 /* CreateDocumentRequest.swift in Sources */,
+				338388F827B029960067049E /* BaseScreen.swift in Sources */,
+				3381637D2A0D849500AF2808 /* UITextField+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		338388E627B011720067049E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338388E727B011720067049E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		338388EB27B011730067049E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338388EC27B011730067049E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		338388EF27B011730067049E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		338388F027B011730067049E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		338388F227B011730067049E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C064DE3C5CE033C6EA7F6F46 /* Pods-SignWell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TK6B749442;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SignWell/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SignWell;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera permissions are needed to add photos of locations.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library permissions are needed to add photos of locations.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.signwell.iosdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		338388F327B011730067049E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C67D95385A4E2AEEE67CAF /* Pods-SignWell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TK6B749442;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SignWell/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SignWell;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera permissions are needed to add photos of locations.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library permissions are needed to add photos of locations.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.signwell.iosdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		338388D827B011720067049E /* Build configuration list for PBXProject "SignWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338388EF27B011730067049E /* Debug */,
+				338388F027B011730067049E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338388F127B011730067049E /* Build configuration list for PBXNativeTarget "SignWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338388F227B011730067049E /* Debug */,
+				338388F327B011730067049E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 338388D527B011720067049E /* Project object */;
+}

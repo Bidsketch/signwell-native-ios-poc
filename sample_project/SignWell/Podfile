@@ -1,0 +1,10 @@
+platform :ios, '15.0'
+
+use_frameworks!
+
+target 'SignWell' do
+	pod 'TPKeyboardAvoidingSwift'
+	pod 'Alamofire'
+	pod 'JGProgressHUD'
+end
+
